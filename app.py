@@ -1,7 +1,8 @@
  # Importing required packages
+import openai
 import streamlit as st
 import time 
-from openai import OpenAI
+# from openai import OpenAI
 
 # Set your OpenAI API key and assistant ID here
 api_key         = st.secrets["openai_apikey"]
